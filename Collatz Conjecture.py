@@ -2,7 +2,7 @@ def end(greatestNumber, steps):
     print("Greatest number: " + str(greatestNumber))
     print("Total steps taken: " + str( steps-1))
     quit()
-    # raise Exception("cause of the problem")
+    
 num = int(input("Enter the number: "))
 
 
@@ -26,5 +26,6 @@ global greatestNumber
 greatestNumber = 0
 global steps
 steps = 0
+
 fun(num, greatestNumber, steps)
         
